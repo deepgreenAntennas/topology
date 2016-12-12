@@ -33,7 +33,7 @@ from . import __version__
 from .manager import TopologyManager
 from .interact import interact
 from .parser import find_topology_in_python
-from .injection import parse_attribute_injection
+from pyszn.injection import parse_attribute_injection
 from .logging import manager as logmanager
 
 
